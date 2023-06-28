@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Roboto+Mono:wght@300;400;700&display=swap');
+
+:root{
+  --fontparrag:  'Roboto Mono', monospace;
+  --fonttitle: 'Gasoek One', sans-serif;
+  --primary:#F6FF75;
+  --secundary: #484838;
+  --tertiary:#ADAC9A;
+  --quaternary:#00FAFF;
+  --quinary:#00C0C7;
+
+}
+

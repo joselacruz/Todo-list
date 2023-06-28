@@ -1,0 +1,54 @@
+@import '../styles//root.css';
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin-block-end: 10px;
+}
+
+.todo-item p {
+    border-top: 1px solid var(--tertiary);
+    border-bottom: 1px solid var(--tertiary); 
+    width: 80%;
+    font-family: var(--fontparrag);
+}
+
+.todo-item .todoitem-p--complete{
+    text-decoration: line-through;
+ }
+
+
+/* .todo-item .icon-check{
+    width: 25px;
+    height: 25px;
+    border: 3px solid var(--tertiary); 
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../icons/check-3278.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    filter: invert(50%) sepia(6%) saturate(577%) hue-rotate(19deg) brightness(94%) contrast(88%);
+    
+}
+
+.todo-item .icon-check:hover{
+    filter: invert(24%) sepia(0%) saturate(575%) hue-rotate(19deg) brightness(94%) contrast(88%);
+}
+
+.todo-item span:nth-child(3):hover{
+    filter: invert(50%) sepia(92%) saturate(7422%) hue-rotate(351deg) brightness(95%) contrast(94%);
+}
+
+.todo-item .todoitem-p--complete{
+   text-decoration: line-through;
+}
+.todo-item .icon-check--active{
+    filter: invert(24%) sepia(0%) saturate(575%) hue-rotate(19deg) brightness(94%) contrast(88%);
+} */
+
+
+

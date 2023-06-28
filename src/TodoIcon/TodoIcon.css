@@ -1,0 +1,28 @@
+
+
+.todo-item span{
+    cursor: pointer;
+    font-family: var(--fontparrag);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.icon-check{
+    border: 3px solid var(--secundary); 
+    width: 28px;
+    height: 28px;
+}
+
+.icon-delete{
+    width: 16px;
+    height: 16px;
+}
+.icon-check:hover svg{
+    fill: rgb(6,188,66);
+}
+
+.icon-delete:hover svg{
+    fill: red;
+}
+

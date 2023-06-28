@@ -1,0 +1,41 @@
+@import '../styles/root.css';
+.todo-search-container{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    margin-block-end: 24px;
+    height: 48px;
+    
+
+}
+
+.todo-search-container span{
+    background-image: url(./search-337.svg);
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background-size: 29px;
+    background-repeat: no-repeat;
+}
+
+.todo-search-container input{
+    border-radius: 10px;
+    height: 38px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 10px;
+    
+}
+
+.todo-search-container:hover{
+    box-shadow: 2px 0px 3px var(--secundary);
+    transition: all 0.3s;
+}

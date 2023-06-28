@@ -1,0 +1,12 @@
+@import '../styles/root.css';
+ul{
+    background-color: var(--primary);
+    width: 400px;
+    min-height: 350px;
+    margin: 0 auto;
+    box-shadow: 2px 16px 29px var( --tertiary);
+    border-style: 0 ;
+    border-top: 3px double  var( --tertiary);
+    padding-block-end: 65px;
+    margin-block-end: 24px;
+}

@@ -1,0 +1,68 @@
+ form {
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F6FF75;
+    color: #484838;
+}
+ textarea{
+    width: 225px;
+    max-width: 82%;
+    min-height: 78px;
+    max-height: 40%;
+    padding: 10px;
+    background-color: #F3F3CC;
+}
+ label {
+
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.TodoForm-buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-block-end: 10px;
+}
+
+.todoFrom-button{
+    min-width: 80px;
+    min-height: 31px;
+    border: none;
+    font-family: var(--fontparrag);
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.todoFrom-add{
+    background-color: var(--secundary);
+    font-weight: bold;
+    color: #F3F3CC;
+    box-shadow: 1px 3px 6px black;
+    
+}
+.todoFrom-cancel{
+    background-color: transparent;
+}
+
+.todoFrom-button:hover{
+    box-shadow: 0px 0px 4px ;
+}
+
+.todoFrom-cancel:hover{
+    background-color:#F3F3CC;
+
+}
+.todoFrom-button:active{
+    border: 2px solid #ADAC9A;
+   
+}
+
+.todoFrom-cancel:active{
+    color: red;
+}
