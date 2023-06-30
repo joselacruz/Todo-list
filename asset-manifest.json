@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Todo-list/static/css/main.195fb080.css",
-    "main.js": "/Todo-list/static/js/main.b53ac5c2.js",
-    "static/media/pencil-9479.svg": "/Todo-list/static/media/pencil-9479.450d0815c36fb2a61976.svg",
-    "static/media/search-337.svg": "/Todo-list/static/media/search-337.6eb635116625f83ea7ec.svg",
-    "static/media/check-3278.svg": "/Todo-list/static/media/check-3278.e6ab80aabc8f25caed7d2a58597d177d.svg",
-    "index.html": "/Todo-list/index.html",
-    "static/media/delete.svg": "/Todo-list/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "main.195fb080.css.map": "/Todo-list/static/css/main.195fb080.css.map",
-    "main.b53ac5c2.js.map": "/Todo-list/static/js/main.b53ac5c2.js.map"
+    "main.css": "/joselacruz/Todo-list/static/css/main.3a1813ee.css",
+    "main.js": "/joselacruz/Todo-list/static/js/main.8710e2d1.js",
+    "static/media/pencil-9479.svg": "/joselacruz/Todo-list/static/media/pencil-9479.450d0815c36fb2a61976.svg",
+    "static/media/search-337.svg": "/joselacruz/Todo-list/static/media/search-337.6eb635116625f83ea7ec.svg",
+    "static/media/check-3278.svg": "/joselacruz/Todo-list/static/media/check-3278.e6ab80aabc8f25caed7d2a58597d177d.svg",
+    "index.html": "/joselacruz/Todo-list/index.html",
+    "static/media/delete.svg": "/joselacruz/Todo-list/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "main.3a1813ee.css.map": "/joselacruz/Todo-list/static/css/main.3a1813ee.css.map",
+    "main.8710e2d1.js.map": "/joselacruz/Todo-list/static/js/main.8710e2d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.195fb080.css",
-    "static/js/main.b53ac5c2.js"
+    "static/css/main.3a1813ee.css",
+    "static/js/main.8710e2d1.js"
   ]
 }
