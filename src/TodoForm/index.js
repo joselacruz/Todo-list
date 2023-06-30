@@ -6,22 +6,42 @@ function TodoForm () {
     const {
         setOpenModal,
         addTodo,
+        todos,
     } = React.useContext(TodoContext);
 
     const [newTodoValue,setNewTodoValue] = React.useState(''); 
 
-    const onSubmit = (event) => {
-        event.preventDefault();
-        addTodo(newTodoValue);
-        setOpenModal(false);
+    const onSubmit = async() => {
+        const checkTodo = await newTodoValue;
+        const filterTodo = todos.find(
+            (todo) => todo.text === checkTodo 
+            );
+
+       if(checkTodo === "" ) {
+       alert("El campo de texto No puede estar en blanco");
+       }
+       
+       else if (filterTodo) {
+        alert("Este Todo ya Existe");
+       }
+
+        else{
+            addTodo(newTodoValue);
+            setOpenModal(false);
+        }
     }
     const onCancel = () => {
         setOpenModal(false);
     }
 
     const onChange = (event) => {
-     setNewTodoValue(event.target.value);
+        setNewTodoValue(event.target.value);
+      
     }
+
+
+
+
 return (
     <form>
     <label>Escribe tu nuevo TODO</label>
@@ -34,7 +54,10 @@ return (
     onClick={onCancel}
     >Cancelar</button>
     <button type="button" className="todoFrom-button todoFrom-add"
-    onClick={onSubmit}
+    onClick={
+        () => {
+          onSubmit();
+        } }
     >Añadir</button>
     </div>
   </form>

@@ -1,5 +1,4 @@
 import React from "react";
-import { TodoDraw } from "../TodoDraw";
 import './TodosLoading.css';
 
 

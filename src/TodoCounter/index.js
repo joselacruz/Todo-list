@@ -13,7 +13,6 @@ function TodoCounter() {
   }
   else if(total==0){
     showTex = "Agregra tu Primer Todo a la lista";
-    console.log(total);
   }
   else{
     showTex = "buen trabajo has completado tu lista de Todo";

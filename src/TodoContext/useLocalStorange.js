@@ -7,7 +7,7 @@ function useLocalStorange (itemName, initialValue) {
     
     React.useEffect(()=> {
      setTimeout(() => {
-      console.log("2");
+  
      try{
       const localStorageItem = localStorage.getItem(itemName);
   

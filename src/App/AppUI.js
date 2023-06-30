@@ -23,17 +23,18 @@ function AppUI () {
             deleteTodo,
             openModal,
             setOpenModal,
+            todos,
       } = React.useContext(TodoContext);
   return (
         <>
        <TodoCounter/>
-       <TodoSearch/>
+       <TodoSearch />
             <TodoList>
             <TodoDraw  loading={loading} />
            {loading && <TodosLoading/>}
            {error && <TodosError/>}
-           {(!loading && searchedTodos.length === 
-           0) && <EmptyTodos/>
+           {(!loading && todos.length === 
+           0 && !openModal) && <EmptyTodos/>
            }
           {searchedTodos.map(todo =>(
             <TodoItem 

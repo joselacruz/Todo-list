@@ -9,7 +9,7 @@
     border-radius: 10px;
     margin-block-end: 24px;
     height: 48px;
-    
+    position: relative;
 
 }
 
@@ -38,4 +38,11 @@
 .todo-search-container:hover{
     box-shadow: 2px 0px 3px var(--secundary);
     transition: all 0.3s;
+}
+
+small{
+    position: absolute;
+    bottom: -17px;
+   color: var(--secundary);
+
 }
