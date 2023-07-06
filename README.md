@@ -1,12 +1,12 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# To Do List created in with React
 
-¡Hola, Platzinauta!
+¡Hola,
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+In this repository you will find the code for creating a to-do list, commonly known as a todo list or task list, it is a list of things to do. It contains, basically, any activity that you must carry out. You can visit the deploy by following this link
+https://joselacruz.github.io/Todo-list/
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+To start you just have to clone this repository(`git clone`), install your dependencies(`npm i`) and run the app (`npm start`).
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
 
 ## Getting Started with Create React App
 
